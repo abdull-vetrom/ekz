@@ -1,0 +1,13 @@
+$TTL 86400
+@ IN SOA hq-srv.au-team.irpo. admin.au-team.irpo. (
+    2026070401 ; Serial
+    3600       ; Refresh
+    1800       ; Retry
+    604800     ; Expire
+    86400 )    ; Minimum TTL
+
+@     IN NS hq-srv.au-team.irpo.
+
+2.100 IN PTR hq-srv.au-team.irpo.
+1.100 IN PTR hq-rtr.au-team.irpo.
+2.200 IN PTR hq-cli.au-team.irpo.
